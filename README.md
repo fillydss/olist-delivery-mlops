@@ -139,10 +139,14 @@ Then POST an order to `http://127.0.0.1:8000/predict` (see `/docs` for the schem
 
 ## Screenshots
 
-<!-- Replace these with your own images -->
-- **MLflow model comparison** — `docs/mlflow.png`
-- **FastAPI interactive docs** — `docs/api-docs.png`
-- **Drift report** — `docs/drift.png`
+### MLflow model comparison
+![MLflow model comparison](docs/mlflow.png)
+
+### FastAPI interactive docs
+![FastAPI docs](docs/api-docs.png)
+
+### Drift report
+![Drift report](docs/drift.png)
 
 ---
 
