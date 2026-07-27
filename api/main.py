@@ -53,7 +53,7 @@ def build_feature_row(order: OrderRequest) -> pd.DataFrame:
     }
 
     # Start from an all-zero row with the EXACT training columns, then fill in.
-    row = pd.DataFrame(0, index=[0], columns=pre["feature_columns"])
+    row = pd.DataFrame(0.0, index=[0], columns=pre["feature_columns"])
     for col, val in values.items():
         if col in row.columns:      # unknown state -> stays all-zero, which is fine
             row.at[0, col] = val
