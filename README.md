@@ -195,10 +195,10 @@ Because Spark's `randomSplit` does not select the same rows as scikit-learn's
 above; the model ranking is unchanged.
 
 ### Databricks Workflow (five-task DAG with conditional retrain)
-![Databricks Workflow run](databricks/docs/workflow.png)
+![Databricks Workflow run](databricks/docs/workflow.jpg)
 
 ### Unity Catalog model registry (champion alias)
-![UC registered model](databricks/docs/uc-model.png)
+![UC registered model](databricks/docs/uc-model.jpg)
 
 ---
 
