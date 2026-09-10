@@ -169,7 +169,7 @@ flowchart LR
     M -->|retrain_triggered| C{check_drift}
     FT --> T[03_train<br/>5-model benchmark]
     C -->|true| T
-    T --> REG[(delivery_time_model@champion<br/>Unity Catalog)]
+    T --> REG[("delivery_time_model@champion<br/>Unity Catalog")]
 ```
 
 **What the port demonstrates beyond the local version:**
