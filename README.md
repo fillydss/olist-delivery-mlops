@@ -52,7 +52,7 @@ flowchart LR
 
 ## Results
 
-Five models benchmarked; gradient boosting led, consistent with the thesis findings.
+Five models benchmarked; gradient boosting led.
 
 | Model | Test MAE (days) | R² |
 |---|---|---|
@@ -215,10 +215,3 @@ above; the model ranking is unchanged.
 
 ---
 
-## Background
-
-This pipeline productionizes the modelling approach from my MSc thesis (Data Science
-& Society, Tilburg University), which predicted manual packing lead times for bulky
-e-commerce orders. The thesis demonstrated the model as a proof of concept; this
-project adds the deployment, serving, and monitoring layers required to run such a
-model in production.
