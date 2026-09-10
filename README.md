@@ -156,7 +156,7 @@ The same pipeline, re-implemented on **Databricks Free Edition** with PySpark
 transformations over Delta tables in Unity Catalog, managed MLflow tracking, a
 UC-registered model, and a scheduled Workflow that only retrains when the drift
 monitor flags it. Full setup steps are in [`databricks/RUNBOOK.md`](databricks/RUNBOOK.md);
-the porting-decision table and gotchas are in [`databricks/README.md`](databricks/README.md).
+the porting-decision table and gotchas are in [`databricks/README.md`](databricks/README_databricks.md).
 
 ```mermaid
 flowchart LR
@@ -195,10 +195,10 @@ Because Spark's `randomSplit` does not select the same rows as scikit-learn's
 above; the model ranking is unchanged.
 
 ### Databricks Workflow (five-task DAG with conditional retrain)
-![Databricks Workflow run](databricks/docs/workflow.JPG)
+![Databricks Workflow run](databricks/workflow.JPG)
 
 ### Unity Catalog model registry (champion alias)
-![UC registered model](databricks/docs/uc-model.JPG)
+![UC registered model](databricks/uc-model.JPG)
 
 ---
 
