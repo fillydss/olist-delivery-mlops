@@ -5,10 +5,6 @@ complete MLOps pipeline: data ingestion, feature engineering, model training wit
 experiment tracking, a containerized prediction API, and automated data-drift
 monitoring.
 
-This project extends an MSc thesis on ML-based lead-time prediction by adding the
-production layer the thesis left as future work: deployment, serving, and
-monitoring.
-
 The pipeline exists in two forms: the original local version (`src/`, pandas +
 scikit-learn) and a **Databricks port** (`databricks/`, PySpark + Delta Lake +
 Unity Catalog + managed MLflow, orchestrated as a scheduled Workflow). See the
